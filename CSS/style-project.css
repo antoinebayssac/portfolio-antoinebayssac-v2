@@ -1,0 +1,211 @@
+.banner{
+    flex-direction: column;
+    background-color: white;
+}
+
+.hidden.box{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 28vh;
+    font-weight: 700;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 33px;
+  }
+
+  .hidden h2 {
+    font-size: 2em;
+    color: #8181e3;
+  }
+  .hidden h2::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 60px;
+    width: 100px;
+    height: 4px;
+    background: rgb(0, 0, 0);
+    margin-left: 10px;
+  }
+
+.hidden.elia-img1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.hidden.elia-img2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 10px;
+    height: auto;
+}
+
+.hidden.elia-img1 img{
+    width: 45%;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    border-radius: 8%;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    max-width: 80%;
+    height: 40%;
+    padding: 2px;
+    margin: 10px;
+}
+
+.hidden.elia-img2 img{
+    width: 50%;
+    box-shadow: 0px 0px 10px 0px #4f4f5287;
+    border-radius: 8%;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    max-width: 80%;
+    height: auto;
+    padding: 2px;
+    margin: 10px;
+}
+
+.hidden.elia-img3 img{
+    width: 50%;
+    box-shadow: 0px 0px 10px 0px #4f4f5287;
+    border-radius: 50%;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    max-width: 80%;
+    height: auto;
+    padding: 2px;
+    margin: 10px;
+}
+
+.hidden.elia-texte{
+    color: black;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hidden.elia-texte h1{
+    padding: 1%;
+    color: #8181e3;
+}
+
+.elia-title-img2 {
+    padding: 1%;
+    color: #8181e3;
+    font-size: 1.4em;
+}
+
+.hidden.elia-img3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 10px;
+    height: auto;
+}
+
+.elia-title-img3{
+    padding: 1%;
+    color: #8181e3;
+    font-size: 1.4em;
+}
+
+@media (max-width: 768px){
+    
+    .hidden.elia-img1{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+    
+    .hidden.elia-img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hidden.elia-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .hidden.elia-texte{
+        font-size: 0.9em;
+    }
+
+    .hidden.elia-img img {
+        width: 70%;
+        height: auto;   
+    }
+
+    .hidden h2{
+        font-size: 1.5em;
+    }
+}
+
+.hidden.bmw-texte{
+    color: black;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hidden.bmw-img2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+}
+
+.hidden.bmw-texte h1{
+    color: #8181e3;
+    padding: 2%;
+}
+
+
+.hidden.bmw-img2 img{
+    width: 25%;
+    border-radius: 0%;
+    box-shadow: 0px 0px 10px 0px #4f4f5287;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    max-width: 60%;
+    min-width: 30%;
+    height: auto;
+    padding: 2px;
+}
+
+.hidden.bmw-texte h3{
+    color: #8181e3;
+}
+  
+  
+  
